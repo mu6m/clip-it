@@ -1,0 +1,18 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[css]": {
+		"editor.defaultFormatter": null,
+		"editor.formatOnSave": false
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust",
+		"editor.formatOnSave": true // Optional
+	},
+	"editor.formatOnSave": true,
+	"prettier.useTabs": true,
+	"prettier.proseWrap": "never",
+	"prettier.printWidth": 80,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.stylelint": "explicit"
+	}
+}
